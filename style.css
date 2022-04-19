@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    color: white;
+    background-image: url('bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, .6);
+    height: 100vh;
+}
+
+.header {
+    padding: 50px 20px 30px 20px;
+}
+
+.header h1 {
+    font-size: 50px;
+    color: rgb(203, 62, 20);
+    text-shadow: 1px 1px rgb(169, 204, 234);
+}
+
+.header input {
+    width: 100%;
+    padding: 10px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid rgb(203, 62, 20);
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+.city {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-shadow: 1px 2px black;
+}
+
+.temp {
+    font-size: 100px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-shadow: 1px 2px black;
+}
+
+.desc {
+    font-size: 30px;
+    font-weight: 300;
+    font-style: italic;
+    margin-bottom: 10px;
+    text-shadow: 1px 2px black;
+}
+
+.minmax {
+    font-size: 24px;
+    text-shadow: 1px 3px rgba(0, 0, 0, .8);
+}
